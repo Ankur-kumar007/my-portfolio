@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to bottom, #000000, #000000);
+  color: white;
+}
+#scrollbar styling ::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000005;
+}
+::-webkit-scrollbar-thumb {
+  background: #9b898f;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9c8892;
+}
+.navbar {
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  margin: 060px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+  transition: background 0.3s, color 0.1s, top 0.3s, left 0.3s, right 0.3s,
+    padding 0.3s, margin 0.3s, box-shadow 0.3s;
+  z-index: 1000;
+}
+.navbar.sticky {
+  background: #000000;
+  color: #ff4081;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* White shadow */
+}
+.navbar a {
+  color: inherit; /* Use inherit to ensure color change on scroll */
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+.image1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: block;
+}
