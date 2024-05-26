@@ -23,7 +23,27 @@
         <a href="#">contact</a>
       </div>
 
-      <img class="image1" src="image.jpg" alt="ankur image" />
+      <!--  <img class="image1" src="image.jpg" alt="ankur image" /> -->
     </div>
+    <!-- <img class="image1" src="image.jpg" alt="ankur image" /> -->
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Ankur kumar</span>
+          <div>and I am a passionate web Developer</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection"></div>
+        <img class="image1" src="image.jpg" alt="ankur image"
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["web developer.", "graphics.", "coader"],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>

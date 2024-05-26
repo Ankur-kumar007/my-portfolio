@@ -26,7 +26,7 @@ html {
 }
 .navbar {
   position: fixed;
-  top: 40px;
+  top: 20px;
   left: 20px;
   right: 20px;
   padding: 10px 20px;
@@ -38,16 +38,17 @@ html {
   transition: background 0.3s, color 0.1s, top 0.3s, left 0.3s, right 0.3s,
     padding 0.3s, margin 0.3s, box-shadow 0.3s;
   z-index: 1000;
+  background-color: rgb(27, 27, 30);
 }
 .navbar.sticky {
-  background: #000000;
-  color: #ff4081;
+  background: #893d3d;
+  color: #51333d;
   top: 0;
   left: 0;
   right: 0;
   margin: 0;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* White shadow */
+  box-shadow: 0 4px 8px rgb(102, 58, 58); /* White shadow */
 }
 .navbar a {
   color: inherit; /* Use inherit to ensure color change on scroll */
@@ -56,9 +57,40 @@ html {
   margin: 0 15px;
   transition: color 0.3s;
 }
+.navbar a:hover {
+  color: rgb(122, 82, 21);
+  font-size: 1rem;
+}
 .image1 {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  border-radius: 80%;
   display: block;
+  /* padding-top: 7rem; */
+  /* padding-left: 44rem; */
+}
+.h3 {
+  color: white;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+  padding-top: 7rem;
+  align-items: center;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  /* background-color: red; */
+  padding-left: 6rem;
+  font-size: 2rem;
+  margin: 30px 0;
+}
+.rightsection {
+  /* background-color: red; */
+}
+.purple {
+  color: blueviolet;
 }
