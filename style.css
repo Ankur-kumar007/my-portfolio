@@ -68,6 +68,8 @@ html {
   display: block;
   /* padding-top: 7rem; */
   /* padding-left: 44rem; */
+  padding-right: 2rem;
+  padding-top: 0rem;
 }
 .h3 {
   color: white;
@@ -93,4 +95,7 @@ html {
 }
 .purple {
   color: blueviolet;
+}
+.fa-brands fa-facebook {
+  background-color: blue;
 }
